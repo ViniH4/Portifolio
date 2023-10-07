@@ -1,16 +1,23 @@
 import Navbar from "./Components/Navbar.js";
-import Sobre from "./Components/Sobre.js";
+import Home from "./Components/Home.js";
 import Habilidades from "./Components/Habilidades.js";
 import Contato from "./Components/Contato.js";
-import './App.css';
+import Projetos from "./Components/Projetos.js"
+import "./Styles/App.css";
 
 function App() {
   return (
     <div className="App">
+      <header>
         <Navbar />
-        <Sobre />
-        <Habilidades />
-        <Contato />
+      </header>
+
+      <content>
+        <Home className="componentes"/>
+        <Habilidades className="componentes"/>
+        <Projetos/>
+        {/* <Contato className="componentes"/> */}
+      </content>
     </div>
   );
 }

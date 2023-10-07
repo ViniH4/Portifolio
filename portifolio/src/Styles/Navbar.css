@@ -1,0 +1,44 @@
+
+  .links {
+    list-style: none;
+     top: 0; /* Fixa o Navbar no topo da tela */
+     left: 0;
+     right: 0;
+    margin: 0px;
+    padding: 2%;
+    display: flex; /* Torna os links flexíveis para alinhá-los horizontalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-color: #2b2d41f1; /* Branco com 70% de transparência */
+    z-index: 100;
+    border-bottom: 1px solid #282933;
+    box-shadow: 0px 0px 5px -2px;
+  }
+
+  .links li {
+    margin: 0 10px; /* Adiciona margem entre os itens */
+  }
+
+  .links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+    padding-bottom: 5px;
+  }
+  
+  .links a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #2bcde0;
+    transition: width 0.3s ease;
+  }
+  
+  .links a:hover::before {
+    width: 100%;
+  }
+  

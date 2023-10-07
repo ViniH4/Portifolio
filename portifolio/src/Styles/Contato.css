@@ -1,0 +1,29 @@
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Centraliza horizontalmente os elementos */
+    width: 50%;
+    text-align: left;
+    color: #fff;
+}
+
+.contato-form input {
+    margin: 5px 0; /* Adiciona margem para separar os elementos verticalmente */
+    padding: 3%;
+    width: 94%;
+    background-color: #2b2d41;
+    border: none;
+    outline: none;
+}
+
+
+.contato-form button {
+    background-color: #ff4a57;
+    padding: 2%;
+    width: 40%;
+    align-self: end;
+    color: #fff;
+    border: none;
+    margin-bottom: 10%;
+
+}

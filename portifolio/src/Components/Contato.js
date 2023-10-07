@@ -5,8 +5,10 @@ function Contato() {
     return (
         <div>
             <form className="contato-form">
-                <input placeholder="Email"/>
-                <input placeholder="Message"/>
+                <span>E-mail</span>
+                <input />
+                <span>Message</span>
+                <input type="text" />
 
                 <button> Enviar </button>
             </form>

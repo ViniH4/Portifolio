@@ -1,0 +1,87 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.perfil-foto {
+  width: 30%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.conteudo {
+  width: 50%;
+  text-align: left;
+  color: #fff;
+}
+
+.conteudo h2 {
+  font-size: 50px;
+}
+
+.cargo {
+  color: wheat;
+}
+
+.conteudo h1 {
+  font-size: 80px;
+  letter-spacing: 1px;
+  color: #ffffff73;
+}
+
+.links-media {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+}
+
+.github-ref,
+.linkedin-ref {
+  padding: 10px;
+  height: 22px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 10%;
+  margin-right: 12px;
+  font-weight: lighter;
+  margin-right: 5%;
+  margin-top: 5%;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adicione uma transição suave para background-color e color */
+
+}
+
+.github-ref:hover {
+  background-color: #292b2b;
+  color: #fff; /* Mude a cor do texto ao pairar sobre o botão */
+  font-weight: bold;
+
+}
+
+.linkedin-ref:hover {
+  background-color: #092994;
+  color: #fff; /* Mude a cor do texto ao pairar sobre o botão */
+  font-weight: bold;
+}
+
+.linkedin-ref {
+  background-color: #003cff;
+}
+
+.github-ref:hover,
+.linkedin-ref:hover {
+  cursor: pointer;
+  
+}
+
+.escrevendo-animacao {
+  overflow: hidden;
+  white-space: nowrap;
+  color: #2bcde0;
+}

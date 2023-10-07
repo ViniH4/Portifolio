@@ -1,0 +1,14 @@
+/* Navbar.css */
+
+content {
+  display: flex;
+  flex-direction: column; /* Para centralizar verticalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  margin-top: 20px;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth; /* Adicione scroll suave para toda a página */
+}
+

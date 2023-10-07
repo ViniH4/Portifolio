@@ -1,0 +1,84 @@
+.habilidades {
+  height: 110vh;
+  padding: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.habilidades-container {
+  display: inline-block;
+  width: calc(27% - 30px);
+  margin: 10px; /* Adicione uma margem para espaçamento entre os blocos */
+  vertical-align: top; /* Alinha os blocos ao topo da linha */
+  box-sizing: border-box; /* Certifica-se de que a largura inclui margens e preenchimento */
+  background-color: #2b2d41; /* Define a cor de fundo desejada */
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.336); /* Desloca 2px horizontal e verticalmente, com uma sombra mais difusa e uma cor ligeiramente diferente */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.habilidades-container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Reduzi a duração para 0.2s */
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(50%); /* Opcional: Animação de deslocamento vertical */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Define a animação */
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+#habilidades {
+  margin-top: 100px; /* Adicione a altura do navbar mais algum espaço de margem superior */
+
+}
+
+
+.habilidades-container p {
+  font-size: 20px; /* Define o tamanho da fonte menor */
+  color: #9798a0cc;
+}
+
+.habilidades h2 {
+  color: #2bcde0;
+  font-size: 50px;
+  border-bottom: 3px solid;
+  width: 5%;
+  margin-left: 11%;
+  margin-bottom: 4%;
+  margin-top: 4%
+}
+
+.name-habilidade {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana;
+  letter-spacing: 0.75px;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Opcional: Animação de deslocamento vertical */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated {
+  animation: fadeIn 0.3s ease; /* Use a animação "fadeIn" definida acima */
+}

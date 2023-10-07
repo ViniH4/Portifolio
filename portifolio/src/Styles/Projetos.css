@@ -1,0 +1,21 @@
+/* Projetos.css */
+
+.projetos-container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .projeto-item {
+    width: 200px; /* Largura da div quadrada */
+    height: 200px; /* Altura da div quadrada */
+    background-color: #333; /* Cor de fundo da div quadrada */
+    color: #fff; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Personalize outros estilos conforme necessário */
+  
