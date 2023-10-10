@@ -1,0 +1,93 @@
+/* Estilo para o componente Sobre */
+.sobreStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding: 20px;
+    color: #aaacb6; /* Cor do texto principal */
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 40px;
+    height: 8vh;
+    color: #2bcde0;
+
+  }
+
+  .hidden {
+    opacity: 0;
+    transform: translateY(50%); /* Opcional: Animação de deslocamento vertical */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Define a animação */
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .sobreStyle.enter {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  /* Adicione esta classe para mostrar o componente */
+  .sobreStyle.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .minhaFoto {
+    width: 30%;
+    margin-right: 8%; /* Espaçamento à direita da foto */
+  }
+  
+  .textoStyle {
+    max-width: 800px; /* Largura máxima do texto */
+    font-size: 20px; /* Tamanho da fonte principal */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    width: 100%;
+  }
+  
+  .textoStyle h2 {
+    font-size: 28px; /* Tamanho do título */
+    color: #2bcde0; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    border-bottom: 2px solid #2bcde0 ;
+  }
+  
+  .textoStyle p {
+    margin-bottom: 20px; /* Espaçamento entre parágrafos */
+  }
+  
+  /* Estilize a foto */
+  .minhaFoto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Borda arredondada para a foto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para a foto */
+  }
+  
+
+  .curriculo {
+    display: inline-block; /* Torna o link um bloco em linha */
+    padding: 10px 20px; /* Adiciona espaçamento interno para criar o efeito de botão */
+    background-color: #2bcde0; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado padrão de links */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+    margin-top: 5%;
+    width: 15%;
+    text-align: center;
+  }
+
+  
+  .curriculo:hover {
+    background-color: #1e9ab0; /* Cor de fundo ao passar o mouse sobre o botão */
+    color: #fff; /* Cor do texto ao passar o mouse sobre o botão */
+  }
+  

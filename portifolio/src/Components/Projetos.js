@@ -7,7 +7,7 @@ const Projetos = () => {
   return (
     <div className="projetos-container">
       <h2>Projetos</h2>
-      <Carousel showThumbs={false}>
+      <Carousel showThumbs={true}>
         <div className="projeto-item">
           <p>EM BREVE</p>
         </div>
@@ -17,7 +17,6 @@ const Projetos = () => {
         <div className="projeto-item">
           <p>EM BREVE</p>
         </div>
-        {/* Adicione mais itens conforme necessário */}
       </Carousel>
     </div>
   );

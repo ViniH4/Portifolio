@@ -10,7 +10,7 @@ function Habilidades() {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5, // Define a porcentagem de visibilidade necessária para ativar a animação
+      threshold: 0.1, // Define a porcentagem de visibilidade necessária para ativar a animação
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -35,8 +35,8 @@ function Habilidades() {
   }, []);
 
   return (
-    <>
-    <div  id="habilidades" className={`habilidades ${isVisible ? "animated" : "hidden"}`}>
+    <div id="habilidades">
+    <div  className={`habilidades ${isVisible ? "animated" : "hidden"}`}>
         <h2 >Habilidades</h2>
         <div className="habilidades-container">
         <svg xmlns="http://www.w3.org/2000/svg" height="2.0em" viewBox="0 0 496 512">
@@ -109,7 +109,7 @@ function Habilidades() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

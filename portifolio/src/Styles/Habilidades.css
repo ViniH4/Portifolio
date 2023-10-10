@@ -1,5 +1,5 @@
 .habilidades {
-  height: 110vh;
+  height: 80vh;
   padding: 0 auto;
   margin: 0 auto;
   text-align: center;
@@ -22,7 +22,6 @@
 
 .habilidades-container:hover {
   transform: scale(1.05);
-  cursor: pointer;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Reduzi a duração para 0.2s */
 }
 
@@ -55,8 +54,7 @@
   border-bottom: 3px solid;
   width: 5%;
   margin-left: 11%;
-  margin-bottom: 4%;
-  margin-top: 4%
+  margin-bottom: 2%;
 }
 
 .name-habilidade {
